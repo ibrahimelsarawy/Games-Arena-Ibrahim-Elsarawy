@@ -1,0 +1,1071 @@
+body {
+  font-family: "Chakra Petch", sans-serif;
+
+}
+
+.title,
+.navbar-brand {
+  font-family: "Days One", sans-serif;
+}
+
+.bg-darker {
+  background-color: #0B0E13;
+}
+
+.white-icon {
+  color: white;
+}
+
+.active {
+  color: #CBFE1C !important;
+}
+
+.font {
+  color: #CBFE1C;
+  text-decoration: none;
+  transition: none !important;
+  pointer-events: auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700 !important;
+  font-size: 1.25rem !important;
+}
+
+.navbar-brand:hover {
+  color: #CBFE1C !important;
+  transform: none !important;
+  text-shadow: none !important;
+  background: none !important;
+  cursor: default;
+}
+
+.message {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.icon a,
+.icon i,
+.icon span {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.icon a:hover .message,
+.icon a:hover span {
+  color: #CBFE1C;
+}
+
+.navbar-nav .nav-link:hover,
+.icon:hover a {
+  color: #CBFE1C;
+}
+
+.green-color {
+  color: #CBFE1C;
+}
+
+.btn1 {
+  width: 100%;
+  background-color: #CBFE1C;
+  color: #000;
+  font-weight: 900;
+  padding-block: .5rem;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  border-bottom: #1E2939 solid 1px;
+}
+
+.brdr {
+  height: 1px;
+  background-color: #1E2939;
+  width: 100%;
+  margin: 1.875rem auto;
+  border-radius: 10px;
+}
+
+#home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../images/hero-bg.jpg);
+  ;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: 3;
+  background-attachment: fixed;
+  padding-top: 5.625rem;
+  padding: 100px 0;
+}
+
+.pt-6 {
+  padding-top: 3.75rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  padding-top: 80px;
+  font-family: "Days One", sans-serif;
+  text-align: center;
+
+}
+
+.fa-trophy {
+  color: #CBFE1C;
+  font-size: 18px;
+}
+
+.title span {
+  color: #CBFE1C;
+}
+
+.txt-color {
+  color: #BBBEC3 !important;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.25rem;
+  font-size: .75rem;
+  text-align: center;
+}
+
+.btn2 {
+  position: relative;
+  color: #000;
+  font-weight: 700;
+  border: none;
+  padding: .8125rem;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: .75rem;
+  transition: all 0.3s ease;
+  border: .0625rem solid #CBFE1C;
+  background-color: transparent;
+}
+
+.lemon {
+  background-color: #CBFE1C;
+}
+
+.lemon-color {
+  color: #CBFE1C;
+}
+
+.btn-shine:before {
+  content: "";
+  background: linear-gradient(90deg, #0000, #fff6, #0000);
+  width: 100%;
+  height: 100%;
+  transition: left .6s;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+
+.btn2:hover::before,
+.btn1:hover::before {
+  left: 110%;
+}
+
+.btn2:hover,
+.btn1:hover {
+  background-color: #A8CE1B;
+  color: #000;
+}
+
+#home .images {
+  padding-top: 90px;
+  border: 0.25rem solid transparent;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+#home .row .images img {
+  border: 4px solid transparent;
+  object-fit: cover;
+  border: 4px solid transparent;
+  border-image: linear-gradient(90deg, #CBFE1C, #17ab58);
+  border-image-slice: 1;
+  width: 100%;
+  height: 100%;
+}
+
+#home .note {
+  background-color: #0B0E13;
+  color: #fff;
+  width: 150px;
+  padding: 15px;
+  top: 70%;
+  left: -60%;
+  transform: translate(-15%, -80%);
+  border: #364153 1px solid;
+  border-radius: 10px;
+}
+
+#home .caption p {
+  font-size: 12px;
+  color: #686f7a;
+}
+
+#home .caption span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-title .subtitle {
+  position: relative;
+  letter-spacing: 5px;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.main-title .subtitle::before,
+.main-title .subtitle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: .1875rem;
+  transform: translateY(-50%);
+  border-radius: 2px;
+}
+
+.main-title .subtitle::before {
+  right: 100%;
+  margin-right: 10px;
+  background: linear-gradient(to left, #CBFE1C, transparent);
+}
+
+.main-title .subtitle::after {
+  left: 100%;
+  margin-left: 10px;
+  background: linear-gradient(to right, #CBFE1C, transparent);
+}
+
+.main-title h2,
+.main-title .span-txt {
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.main-title h2 {
+  font-family: "Days One", sans-serif;
+}
+
+.main-title .span-txt {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.main-nav {
+  background: transparent;
+  border: 2px solid #99a1af;
+  color: #99a1af;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: 0.3s ease;
+}
+
+.main-nav:hover {
+  border-color: #CBFE1C;
+  color: #CBFE1C;
+}
+
+.main-btn {
+  background: none;
+  color: #CBFE1C;
+  border: 2px solid #CBFE1C;
+  padding: 1.25rem 1.5625rem;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.txt {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.main-btn:hover {
+  background-color: #CBFE1C;
+  color: #000;
+  font-weight: 700;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.image-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.image-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(203, 254, 28, 0.8) 0%, transparent 51%);
+  color: #000;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  text-align: left;
+  border-radius: 15px;
+  transform: translateY(20px);
+}
+
+.image-card .overlay h3 {
+  font-weight: 900;
+}
+
+.image-card .icon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  gap: 10px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.4s, transform 0.4s;
+  z-index: 2;
+}
+
+.image-card .icon span {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.image-card:hover img {
+  transform: scale(1.08);
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-card:hover .icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-card .overlay h3 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.image-card .overlay p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+#whatDo .box {
+  position: relative;
+  background-color: #1A1A1A;
+  border: 1px solid #1c2635;
+  border-radius: 20px;
+  padding: 30px 20px;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#whatDo .image-box {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+#whatDo .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+#whatDo .icone {
+  background-color: #1e2939;
+  color: #CBFE1C;
+  width: fit-content;
+  margin: 0 auto 15px;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-size: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+#whatDo .box:hover .icone {
+  background-color: #CBFE1C;
+  color: #000;
+}
+
+#whatDo .txt-cap {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Days One", sans-serif;
+}
+
+#whatDo .overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+#whatDo .box:hover .overlay {
+  opacity: 1;
+}
+
+#whatDo .triangle-up,
+#whatDo .triangle-down {
+  position: absolute;
+  width: 0;
+  height: 0;
+  transition: all 0.3s ease;
+}
+
+#whatDo .triangle-up {
+  top: -15px;
+  left: -15px;
+  border-top: 24px solid #666;
+  border-right: 24px solid transparent;
+}
+
+#whatDo .triangle-down {
+  bottom: -15px;
+  right: -15px;
+  border-bottom: 24px solid #666;
+  border-left: 24px solid transparent;
+}
+
+#whatDo .box:hover .triangle-up {
+  top: 15px;
+  left: 15px;
+  border-top-color: #CBFE1C;
+}
+
+#whatDo .box:hover .triangle-down {
+  bottom: 15px;
+  right: 15px;
+  border-bottom-color: #CBFE1C;
+}
+
+.scroll-logos {
+  position: relative;
+  background: radial-gradient(#aaff00 0, #000 55%);
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+.glow {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #CBFE1C, transparent);
+  box-shadow: 0 0 10px #CBFE1C, 0 0 20px #CBFE1C;
+  border-radius: 50%;
+  padding: 0 60px;
+}
+
+.slider {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  mask-image: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  background: linear-gradient(to right, #000, transparent);
+}
+
+.slider::after {
+  right: 0;
+  background: linear-gradient(to left, #000, transparent);
+}
+
+.slide-track {
+  display: flex;
+  width: calc(200px * 18);
+}
+
+.slide-track img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 0 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.top .slide-track {
+  animation: scroll-left 40s linear infinite;
+}
+
+.bottom .slide-track {
+  animation: scroll-right 40s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-20%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.custom-card {
+  position: relative;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 350px;
+  background-color: #111827;
+  transition: transform 0.4s ease;
+}
+
+.custom-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: grayscale(1);
+  transition: transform 0.8s ease-in-out;
+  transform: translateY(0%);
+  z-index: 1;
+}
+
+.custom-card:hover::before {
+  transform: translateY(-100%);
+}
+
+.custom-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  z-index: 1;
+}
+
+.card-overlay h5 {
+  color: #fff;
+  font-family: "Days One", sans-serif;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.card-overlay p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+
+}
+
+.card-overlay span {
+  font-size: .75rem;
+  color: #aaa;
+  margin: 0;
+  padding: 0;
+
+}
+
+.card:hover p {
+  font-size: 0.9rem;
+  color: #CBFE1C;
+}
+
+.side-text {
+  position: absolute;
+  right: .9375rem;
+  bottom: 6%;
+  transform: rotate(90deg) translateY(50%);
+  transform-origin: right bottom;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 2px;
+  font-size: 1rem;
+  z-index: 1;
+}
+
+.card:hover .side-text {
+  color: #CBFE1C;
+}
+
+#contact {
+  background-color: #0E131E;
+}
+
+#contact .row .left-side .item-box .icon {
+  font-size: 1.75rem;
+  background-color: #CBFE1C;
+  color: #0E131E;
+  padding: 15px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+#contact .caption h3 {
+  font-family: "Days One", sans-serif;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#contact .caption p {
+  margin: 5px 0 0;
+  color: #979FAE;
+  font-size: 0.95rem;
+}
+
+#contact .left-side .items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#contact .left-side .item {
+  background-image: linear-gradient(to right, #CBFE1C, #17ab58);
+  padding: 20px 35px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+#contact .item .caption h3 {
+  font-family: "Days One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+#contact .item .icon .icons {
+  font-size: 18px;
+  background-color: #000;
+  padding: .9375rem;
+  color: #CBFE1C;
+  margin-right: .3125rem;
+  border-radius: 50%;
+  transition: color 0.3s, transform 0.3s;
+  position: relative;
+
+}
+
+
+#contact .item .icon .icons:hover {
+  background-image: linear-gradient(rgba(203, 254, 28, 0.2), rgba(203, 254, 28, 0.2));
+}
+
+.label-txt {
+  color: #b3b8c1;
+}
+
+#contact .item .caption p {
+  margin: 5px 0 0;
+  color: #0B0E13;
+  font-size: 1rem;
+}
+
+#contact .left-side .item-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #1B2233;
+  padding: 50px 35px;
+  width: 100%;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+#contact .right-side {
+  background-color: #1B2233;
+  padding: 1.5625rem;
+  border-radius: 15px;
+}
+
+#contact .right-side h3 {
+  font-family: "Days One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-control,
+.form-select,
+textarea {
+  background-color: #364153 !important;
+  color: #90969F !important;
+  border: 1px solid #555;
+}
+
+.form-control::placeholder,
+textarea::placeholder {
+  color: #90969F !important;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.form-control,
+.form-select,
+textarea.form-control {
+  color: #fff !important;
+  height: 55px;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+textarea.form-control {
+  height: 150px;
+  resize: none;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  outline: none;
+  box-shadow: none !important;
+  border: .1875rem solid #CBFE1C;
+}
+
+.form-label {
+  color: #b3b8c1;
+  font-weight: 600;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.btn2ex {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.form-check-input {
+  border: 2px solid #CBFE1C;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.form-check-input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.form-check-label {
+  color: #78808F !important;
+  font-size: 0.95rem;
+  margin-left: 8px;
+}
+
+.bold {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #8E96A3;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a:hover {
+  color: #CBFE1C;
+}
+
+#footer .cap {
+  color: #99A1AF;
+}
+
+.icon .icons {
+  font-size: 1.25rem;
+  color: #99A1AF;
+  margin-right: .9375rem;
+  transition: all 0.1s;
+
+}
+
+.icon .icons:hover {
+  color: #CBFE1C;
+}
+
+#footer h3 {
+  font-family: "Days One", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  padding: 0.5rem 0;
+  line-height: 1.2;
+}
+
+#footer .copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2.5rem;
+}
+
+#footer .copy p {
+  color: #99a1af;
+  margin: 0;
+}
+
+#footer .links a {
+  margin-left: 10px;
+  color: #99A1AF;
+  transition: color .1s;
+}
+
+#footer .links a:hover {
+  color: #CBFE1C;
+}
+
+@media (max-width: 576px) {
+  .fs-12 {
+    font-size: .75rem !important;
+  }
+
+  #home .images {
+    height: 300px;
+  }
+}
+
+@media (min-width: 577px) {
+  .fs-16 {
+    font-size: .875rem !important;
+  }
+
+  .fs-lg-1 {
+    font-size: 1rem !important;
+  }
+
+  #home .images {
+    height: 500px;
+  }
+
+  #whatDo .box,
+  #whatDo .cahn-box {
+    height: 280px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  #contact .left-side,
+  #contact .right-side {
+    padding: 50px 0 !important;
+    margin: 0 !important;
+  }
+
+  #contact .right-side {
+    margin-top: 20px;
+  }
+
+  #contact .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  #contact .right-side,
+  #contact .left-side {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-lg {
+    font-size: 3.75rem !important;
+  }
+
+  .btn1 {
+    width: 6.25rem;
+  }
+
+  .fs-lg-1 {
+    font-size: 1rem !important;
+    line-height: 1.625rem;
+  }
+
+
+
+  .main-title h2,
+  .main-title .span-txt {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .main-title h2 {
+    font-family: "Days One", sans-serif;
+  }
+
+  .main-title .span-txt {
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+  .main-title .subtitle {
+    position: relative;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .glow {
+    width: 40%;
+  }
+
+  .slider::before {
+    left: 0;
+    background: linear-gradient(to right, #8fade6, transparent);
+  }
+
+  .slider::after {
+    right: 0;
+    background: linear-gradient(to left, #8fade6, transparent);
+  }
+
+  .top .slide-track {
+    animation: scroll-left 25s linear infinite;
+  }
+
+  .bottom .slide-track {
+    animation: scroll-right 25s linear infinite;
+  }
+
+  .txt {
+    font-size: 1.25rem;
+  }
+
+  #footer .copy {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@font-face {
+  font-family: "Days One";
+  src: url(../Days_One/DaysOne-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ChakraPetch";
+  src: url(../Chakra_Petch/ChakraPetch-Regular.ttf);
+  font-weight: 400;
+}
