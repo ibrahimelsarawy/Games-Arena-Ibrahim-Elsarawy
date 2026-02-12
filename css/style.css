@@ -1057,7 +1057,10 @@ a:hover {
     align-items: center;
   }
 }
+.ibrahim{
+    color: #CBFE1C;
 
+}
 @font-face {
   font-family: "Days One";
   src: url(../Days_One/DaysOne-Regular.ttf);
